@@ -1,0 +1,14 @@
+{
+  "name": "s_mherembi_cv",
+  "version": "1.0.0",
+  "description": "responsive cv website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Shingirirai Mherembi",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
