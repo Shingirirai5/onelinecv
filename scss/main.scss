@@ -123,6 +123,47 @@ main {
 }
 
 // Contact Page
+.form-box {
+  margin-top: 30px;
+}
+.input-group input {
+  width: 45%;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  margin: 2%;
+  display: inline-block;
+  background: #fff;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+.text-area textarea {
+  width: 95%;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  margin: 2%;
+  background: #fff;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
+.submit-btn {
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  margin: 2%;
+  background: grey;
+  cursor: pointer;
+  color: #fff;
+  &:hover {
+    background: $secondary-color;
+    color: set-text-color($secondary-color);
+  }
+}
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -131,14 +172,12 @@ main {
   margin-top: 1rem;
 
   div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    font-size: 1rem;
     margin-bottom: 3rem;
     @include easeOut;
 
     &:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 0.5rem 1rem;
       background: $secondary-color;
       color: set-text-color($secondary-color);
       span {

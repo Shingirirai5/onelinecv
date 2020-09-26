@@ -246,6 +246,44 @@ main {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
+.form-box {
+  margin-top: 30px; }
+
+.input-group input {
+  width: 45%;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  margin: 2%;
+  display: inline-block;
+  background: #fff; }
+  .input-group input:hover {
+    background: #eece1a;
+    color: #000; }
+
+.text-area textarea {
+  width: 95%;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  margin: 2%;
+  background: #fff; }
+  .text-area textarea:hover {
+    background: #eece1a;
+    color: #000; }
+
+.submit-btn {
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  margin: 2%;
+  background: grey;
+  cursor: pointer;
+  color: #fff; }
+  .submit-btn:hover {
+    background: #eece1a;
+    color: #000; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -253,13 +291,11 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    font-size: 1rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 0.5rem 1rem;
       background: #eece1a;
       color: #000; }
       .boxes div:hover span {
